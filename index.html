@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do Zero às Vendas Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #f8fafc, #ffffff);
+      color: #0f172a;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 52px;
+      line-height: 1.1;
+      margin: 0 0 20px;
+    }
+
+    h1 span {
+      color: #2563eb;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      line-height: 1.6;
+      color: #475569;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: #475569;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 24px;
+      background: #f97316;
+      color: white;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 14px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .secondary-link {
+      margin-top: 16px;
+    }
+
+    .secondary-link a {
+      color: #2563eb;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 24px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 13px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+
+    .features {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .feature-box {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+    }
+
+    .feature-box h3 {
+      margin-top: 0;
+      font-size: 22px;
+      color: #0f172a;
+    }
+
+    .feature-box p {
+      font-size: 17px;
+      color: #475569;
+      margin-bottom: 0;
+    }
+
+    .content-section {
+      margin-top: 70px;
+    }
+
+    .content-section h2 {
+      font-size: 38px;
+      margin-bottom: 20px;
+    }
+
+    .content-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .content-item {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 18px;
+      padding: 18px 20px;
+      font-size: 18px;
+      color: #334155;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.04);
+    }
+
+    .receive-section {
+      margin-top: 70px;
+      background: #ecfdf5;
+      border-radius: 28px;
+      padding: 40px;
+    }
+
+    .receive-section h2 {
+      font-size: 36px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .receive-section ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .receive-section li {
+      font-size: 19px;
+      color: #334155;
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    .final-cta {
+      margin-top: 70px;
+      text-align: center;
+      background: #0f172a;
+      color: white;
+      border-radius: 28px;
+      padding: 50px 30px;
+    }
+
+    .final-cta h2 {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    .final-cta p {
+      color: #cbd5e1;
+      max-width: 760px;
+      margin: 0 auto 25px;
+      font-size: 20px;
+    }
+
+    .final-cta .button {
+      margin-top: 10px;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .features,
+      .content-list {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      .content-section h2,
+      .receive-section h2,
+      .final-cta h2 {
+        font-size: 30px;
+      }
+
+      p,
+      .subtitle {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div>
+        <div class="badge">eBook prático para iniciantes</div>
+        <h1>Do Zero às <span>Vendas Online</span></h1>
+        <p class="subtitle">Como começar a vender na internet sem investir em anúncios.</p>
+        <p>
+          Um guia direto ao ponto para quem quer sair do zero, entender o que vender,
+          divulgar com canais gratuitos e transformar redes sociais e WhatsApp em
+          oportunidades reais.
+        </p>
+
+        <a class="button" href="https://pay.kiwify.com.br/9AFCPCZ" target="_blank" rel="noopener noreferrer">
+          Quero começar agora
+        </a>
+
+        <div class="secondary-link">
+          <a href="/comprar.html">Ver outras opções de compra</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="badge">Ebook prático</div>
+        <h2>Do Zero às Vendas Online</h2>
+        <p>
+          Aprenda a criar ou vender produtos na internet usando canais gratuitos,
+          conteúdo estratégico e ação prática.
+        </p>
+        <p>
+          <strong>Inclui:</strong> Afiliados, produtos próprios, infoprodutos e dropshipping.
+        </p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature-box">
+        <h3>Para quem é</h3>
+        <p>
+          Para iniciantes que querem começar a vender online, buscar renda extra
+          e entender caminhos acessíveis no digital.
+        </p>
+      </div>
+
+      <div class="feature-box">
+        <h3>O que resolve</h3>
+        <p>
+          Ajuda quem não sabe por onde começar, acha que precisa investir em anúncios
+          e quer uma direção prática para iniciar.
+        </p>
+      </div>
+
+      <div class="feature-box">
+        <h3>O que você ganha</h3>
+        <p>
+          Clareza, direcionamento e um plano simples para transformar canais gratuitos
+          em oportunidades de venda.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>O que você vai aprender</h2>
+      <div class="content-list">
+        <div class="content-item">Como começar a vender online mesmo saindo do zero</div>
+        <div class="content-item">Como escolher o que vender na internet</div>
+        <div class="content-item">Diferença entre afiliados, infoprodutos, produtos próprios e dropshipping</div>
+        <div class="content-item">Como divulgar sem investir em tráfego pago</div>
+        <div class="content-item">Como usar Instagram, TikTok, Shorts e WhatsApp para atrair clientes</div>
+        <div class="content-item">Como criar uma oferta simples e atrativa</div>
+        <div class="content-item">Como transformar conteúdo em oportunidade de venda</div>
+        <div class="content-item">Plano de ação prático para começar</div>
+      </div>
+    </section>
+
+    <section class="receive-section">
+      <h2>Você receberá</h2>
+      <ul>
+        <li>1 eBook digital em PDF</li>
+        <li>Conteúdo prático para iniciantes</li>
+        <li>Estratégias para vender sem anúncios</li>
+        <li>Ideias de produtos e modelos de negócio online</li>
+        <li>Orientações para usar canais gratuitos de divulgação</li>
+        <li>Plano de ação para começar</li>
+      </ul>
+    </section>
+
+    <section class="final-cta">
+      <h2>Comece hoje mesmo sua jornada no digital</h2>
+      <p>
+        Se você quer sair da teoria e dar os primeiros passos para vender online
+        com mais clareza, esse material foi feito para você.
+      </p>
+      <a class="button" href="https://pay.kiwify.com.br/9AFCPCZ" target="_blank" rel="noopener noreferrer">
+        Comprar agora
+      </a>
+    </section>
+  </div>
+</body>
+</html>
